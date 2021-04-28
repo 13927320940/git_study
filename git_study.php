@@ -12,3 +12,5 @@
 
 7.cat git_study.php  查看内容
 
+8.git reflog 查看提交日志的版本号，，通过git reset --hard 版本号,,,可以恢复到个版本里
+
