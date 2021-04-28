@@ -6,3 +6,7 @@
 
 4.git commit git study.txt 提交文件
 
+5.git log 查看最近修改日志
+
+6.
+
