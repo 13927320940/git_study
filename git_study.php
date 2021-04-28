@@ -8,5 +8,7 @@
 
 5.git log 查看最近修改日志
 
-6.
+6.git reset --hard HEAD^  这是返回上一个版本，要是上上个呢git reset --hard HEAD^^,要是前100个呢，git reset  --hard HEAD~100
+
+7.cat git_study.php  查看内容
 
