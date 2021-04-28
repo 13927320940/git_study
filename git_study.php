@@ -14,3 +14,7 @@
 
 8.git reflog 查看提交日志的版本号，，通过git reset --hard 版本号,,,可以恢复到个版本里
 
+9.git checkout -- git_study.php    删除缓存区未提交的文件
+
+10.ssh-keygen  -t rsa –C "980554584@qq.com"    创建本地电脑的id_rsa私钥  ，这是在自己电脑cmd里去运行的，不是git bash界面哦
+
