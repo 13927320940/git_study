@@ -18,7 +18,7 @@
 
 10.ssh-keygen  -t rsa –C "13927320940"    创建本地电脑的id_rsa私钥  ，这是在自己电脑cmd里去运行的，不是git bash界面哦，引号里面是git账号
 
-11.git push origin master    这是本地git commit之后就推送到仓库的语句
+11.git push origin master    这是本地git commit之后就推送到仓库的语句，在第一次的时候要加-u,不管主分支还是新增的分支git push -u origin master
 
 12.git checkout -b dev   用于创建并切换分支，dev就是分支名，-b参数是指创建
 
@@ -43,3 +43,13 @@
 22.要查看远程库的信息 使用 git remote  要查看远程库的详细信息 使用 git remote –v
 
 23.clear 清屏    q  退出 
+
+
+
+记录初始流程
+1.打开需要作为git的文件夹，右键git bash打开命令行
+2.git init 把这个目录变成git可以管理的仓库
+3.git add .   将目录的文件上传到缓存区
+4.git commit -m "提交日志"
+5.复制github中的项目，找到ssh的代码，如：git remote add origin git@github.com:13927320940/project.git
+6.运行git push -u origin master
