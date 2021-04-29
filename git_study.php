@@ -44,6 +44,10 @@
 
 23.clear 清屏    q  退出 
 
+24.git clone git://git.kernel.org/pub/scm/git/git.git    克隆项目
+
+25.删除远程分支  git push origin --delete dev
+
 
 
 记录初始流程
