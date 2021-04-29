@@ -16,5 +16,13 @@
 
 9.git checkout -- git_study.php    删除缓存区未提交的文件
 
-10.ssh-keygen  -t rsa –C "980554584@qq.com"    创建本地电脑的id_rsa私钥  ，这是在自己电脑cmd里去运行的，不是git bash界面哦
+10.ssh-keygen  -t rsa –C "13927320940"    创建本地电脑的id_rsa私钥  ，这是在自己电脑cmd里去运行的，不是git bash界面哦，引号里面是git账号
+
+11.git push origin master    这是本地git commit之后就推送到仓库的语句
+
+12.git checkout -b dev   用于创建并切换分支，dev就是分支名，-b参数是指创建
+
+13.git branch dev   表示创建分支
+
+14.git checkout dev  表示切换分支，，第12的操作，就相当于13，14的两步操作
 
