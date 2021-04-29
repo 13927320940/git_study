@@ -4,8 +4,6 @@
 
 3.git add git study.txt 把文件添加到暂存区里，git add . 加个点，提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件，git add -A，提交所有变化。git add前几条都可以记不住，这个必须记住！！！
 
-4.git commit git study.txt 提交文件
-
 5.git log 查看最近修改日志
 
 6.git reset --hard HEAD^  这是返回上一个版本，要是上上个呢git reset --hard HEAD^^,要是前100个呢，git reset  --hard HEAD~100，通过git reset --hard 版本号,,,可以恢复到个版本里
@@ -47,6 +45,8 @@
 24.git clone git://git.kernel.org/pub/scm/git/git.git    克隆项目
 
 25.删除远程分支  git push origin --delete dev
+
+26.清除缓存区的文件 git rm --cached git_study.php
 
 
 
