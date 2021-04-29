@@ -2,17 +2,17 @@
 
 2.git init 把这个目录变成git可以管理的仓库
 
-3.git add git study.txt 把文件添加到暂存区里
+3.git add git study.txt 把文件添加到暂存区里，git add . 加个点，提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件，git add -A，提交所有变化。git add前几条都可以记不住，这个必须记住！！！
 
 4.git commit git study.txt 提交文件
 
 5.git log 查看最近修改日志
 
-6.git reset --hard HEAD^  这是返回上一个版本，要是上上个呢git reset --hard HEAD^^,要是前100个呢，git reset  --hard HEAD~100
+6.git reset --hard HEAD^  这是返回上一个版本，要是上上个呢git reset --hard HEAD^^,要是前100个呢，git reset  --hard HEAD~100，通过git reset --hard 版本号,,,可以恢复到个版本里
 
 7.cat git_study.php  查看内容
 
-8.git reflog 查看提交日志的版本号，，通过git reset --hard 版本号,,,可以恢复到个版本里
+8.git reflog 查看提交日志的版本号，，
 
 9.git checkout -- git_study.php    删除缓存区未提交的文件
 
@@ -34,10 +34,12 @@
 
 18.git branch -a（查看所有分支：本地分支白色，当前分支绿色，远程分支红色）
 
-19.git pull（拉取最新的代码）
+19.git pull（拉取最新的代码），，，git pull git_study，，指定拉某个仓库的代码
 
 20.git push（已提交的变动推送至远程）
 
 21.git push -f 推送到远端，git push 有可能会推送失败，所有需要强推；
 
 22.要查看远程库的信息 使用 git remote  要查看远程库的详细信息 使用 git remote –v
+
+23.clear 清屏    q  退出 
