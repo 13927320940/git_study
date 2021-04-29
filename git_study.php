@@ -26,3 +26,18 @@
 
 14.git checkout dev  表示切换分支，，第12的操作，就相当于13，14的两步操作
 
+15.git merge dev   表示合并此分支到主分支上
+
+16.git branch -d dev   表示删除分支
+
+17.通常合并分支时，git一般使用”Fast forward”模式，在这种模式下，删除分支后，会丢掉分支信息，现在我们来使用带参数 –no-ff来禁用”Fast forward”模式，即git merge --no-ff  -m “注释” dev
+
+18.git branch -a（查看所有分支：本地分支白色，当前分支绿色，远程分支红色）
+
+19.git pull（拉取最新的代码）
+
+20.git push（已提交的变动推送至远程）
+
+21.git push -f 推送到远端，git push 有可能会推送失败，所有需要强推；
+
+22.要查看远程库的信息 使用 git remote  要查看远程库的详细信息 使用 git remote –v
